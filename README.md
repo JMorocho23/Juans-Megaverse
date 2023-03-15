@@ -11,11 +11,11 @@ Before you can start using Juan's Megaverse, you will need to install the follow
 -   React (version 16.8 or higher)
 -   Axios (version 0.18 or higher)
 
-You can install these dependencies using npm or yarn. For example, to install React using npm, you can run the following command:
+You can install these dependencies using npm or yarn, you can run the following command:
 
 Copy code
 
-`npm install react`
+`npm install`
 
 Getting Started
 ---------------
