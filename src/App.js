@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import PolyanetCross from './components/PolyanetCross';
+import './App.css'
 
-function App() {
+const App = () => {
+
+  const candidateId = '659c2696-47a9-46df-8d93-56207d5a1af0';
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Polyanet Cross</h1>
+      <p >Candidate ID: {candidateId}</p>
+      <PolyanetCross candidateId={candidateId} />
+      <small>wait this isnt crossmints website... This Juan's Megaverse </small>
     </div>
   );
-}
+};
 
 export default App;
